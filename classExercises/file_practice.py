@@ -1,8 +1,8 @@
-# temp_file = open("temp.txt", mode='r')
-# # # print("first line", file=temp_file)
-# # # print("second line", file=temp_file)
-# print(temp_file.readlines())
-# temp_file.close()
+temp_file = open("temp.txt", mode='r')
+print("first line", file=temp_file)
+print("second line", file=temp_file)
+print(temp_file.readlines())
+temp_file.close()
 
 # with open('my_file.txt', mode='w') as f:
 #     f.write("Jonathan Martins\n")
